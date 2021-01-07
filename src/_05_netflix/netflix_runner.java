@@ -18,6 +18,11 @@ public static void main(String[] args) {
 	queue.addMovie(movie3);
 	queue.addMovie(movie4);
 	queue.addMovie(movie5);
-	Println()
+	System.out.println();
+	queue.sortMoviesByRating();
+	Movie bestmovie = queue.getBestMovie();
+	Movie bestmovie2 = queue.getMovie(2);
+	System.out.println("The best movie is "+bestmovie);
+	System.out.println("The 2nd best movie is "+bestmovie2);
 }
 }
